@@ -11,30 +11,41 @@ https://www.kaggle.com/c/quora-question-pairs
 Data Preprocessing:
 It involves cleaning text by:
 Expanding contractions (like converting "you're" to "you are").
+
 Removing HTML tags using BeautifulSoup.
+
 Removing punctuation using regex.
+
 These steps suggest the goal is to normalize the text for comparison or analysis.
 
 Advanced Feature Engineering:
 
 Text Length: Extract features like word count, character length, and token counts from questions.
+
 Word Overlap: Calculate the number of common and unique words between question pairs.
+
 Stopword Analysis: Determine the ratio of common stopwords to total words.
+
 Fuzzy Matching: Use fuzzywuzzy metrics (like token sort and set ratios) to capture word-level similarity.
 
 
 Libraries Used:
 Core Python libraries like numpy and pandas for data handling.
+
 BeautifulSoup for HTML parsing.
+
 Visualization tools (matplotlib).
 
 Modeling & Evaluation:
 RandomForestClassifier and XGBoost are employed for classification.
+
 Achieved accuracy-
+
 Random Forest: 78.4%
 XGBoost: 79.2%
 
 Future Work:
 Implement advanced feature engineering (TF-IDF, word embeddings).
+
 Experiment with different machine learning models (SVM, XGBoost).
 Explore deep learning approaches (LSTM, BERT) for better performance.
