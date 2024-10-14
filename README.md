@@ -4,7 +4,7 @@ This project focuses on identifying duplicate questions using advanced NLP techn
 
 
 
-Data Loading and Sampling:
+#Data Loading and Sampling:
 The dataset is loaded using Pandas (train.csv), and a sample of 30,000 rows is taken for further processing.
 https://www.kaggle.com/c/quora-question-pairs
 
