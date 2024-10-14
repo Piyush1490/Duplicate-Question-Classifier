@@ -58,4 +58,4 @@ Applying word embeddding techniques like TF-IDF in place of bag of word.
 
 Implement additional advanced feature engineering.
 
-Explore deep learning approaches (LSTM, BERT) for better performance.
+Explore deep learning approaches (LSTM) for better performance.
